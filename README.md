@@ -47,16 +47,6 @@ It's a tradition at this point. I've accepted it.
   <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=linuteresa&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=linuteresa&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
-
----
 
 ### 🌀 Currently
 
@@ -72,6 +62,8 @@ It's a tradition at this point. I've accepted it.
 <p align="left">
   <a href="https://github.com/linuteresa">
     <img src="https://img.shields.io/badge/GitHub-linuteresa-181717?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://www.linkedin.com/in/linuteresa/">
   </a>
 </p>
 
