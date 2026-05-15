@@ -63,10 +63,11 @@ It's a tradition at this point. I've accepted it.
   <a href="https://github.com/linuteresa">
     <img src="https://img.shields.io/badge/GitHub-linuteresa-181717?style=for-the-badge&logo=github"/>
   </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/linuteresa/">
+    <img src="https://img.shields.io/badge/LinkedIn-linuteresa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
-
 ---
 
 <p align="center">
