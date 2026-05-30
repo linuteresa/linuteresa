@@ -6,6 +6,7 @@
 </p>
 
 ---
+Check out my portfolio :- https://linuteresa.github.io/portfolio/
 
 ### 🧠 What I Actually Do
 
