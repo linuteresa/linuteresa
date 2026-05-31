@@ -8,7 +8,7 @@
 ---
 Check out my portfolio :- https://linuteresa.github.io/portfolio/
 
-### 🧠 What I Actually Do
+###  What I Actually Do
 
 ```python
 linu = {
@@ -21,23 +21,13 @@ linu = {
 
 ---
 
-### ⚡ Hot Take
+### Hot Take
 
 > **"Data cleaning is 80% of the job and 100% of what nobody talks about in job descriptions."**  
 > I said what I said.
 
----
 
-### 😅 Running Joke
-
-Every project starts with *"this dataset looks clean."*  
-Every project ends with me, at 2am, removing a column called `Unnamed: 47`.
-
-It's a tradition at this point. I've accepted it.
-
----
-
-### 🛠️ Tech Stack
+###  Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
@@ -49,16 +39,16 @@ It's a tradition at this point. I've accepted it.
 </p>
 
 
-### 🌀 Currently
+###  Currently
 
-- 🔭 Building things that involve way too many matrix multiplications
-- 🧬 Finding structure in high-dimensional data (and in life, occasionally)
-- 📦 Handling big data like it's a perfectly normal amount of data
-- 🤖 Training models and hoping they generalize better than I do at parties
+-  Building things that involve way too many matrix multiplications
+-  Finding structure in high-dimensional data (and in life, occasionally)
+-  Handling big data like it's a perfectly normal amount of data
+- Training models and hoping they generalize better than I do at parties
 
 ---
 
-### 📫 Find Me
+###  Find Me
 
 <p align="left">
   <a href="https://github.com/linuteresa">
