@@ -44,7 +44,7 @@ document, graph and key-value stores to see where each access pattern actually p
 Learning app for preschoolers with OCR and an AI tutor running Gemma3 locally through Ollama. No
 framework, hand-rolled state-driven rendering, six-tier adaptive progression.
 
-### Tech
+### Tech Stack
 
 Python · Java · SQL · PyTorch · scikit-learn · pandas · NumPy · HuggingFace · LangGraph · MCP · Pinecone ·
 Spark · Airflow · Dask · PostgreSQL · MongoDB · Redis · Docker · Terraform · AWS · Azure · Git
