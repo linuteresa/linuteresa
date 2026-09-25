@@ -1,67 +1,50 @@
-<h1 align="center">Hi, I'm Linu 👋</h1>
-<h3 align="center">Data Scientist · AI Builder · Java Enthusiast · Professional Overthinker of Manifolds</h3>
+<h1 align="center">Hi, I am Linu 👋</h1>
+<h3 align="center">I build ML systems and the evals that keep them honest</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A020F0&center=true&vCenter=true&width=500&lines=Teaching+machines+to+think.;Wrangling+data+at+scale.;Projecting+things+into+lower+dimensions.;It's+not+magic.+(It's+totally+magic.)" alt="Typing SVG" />
+  <a href="https://linuteresa.github.io/portfolio/">Portfolio</a> ·
+  <a href="mailto:lteresa@umd.edu">lteresa@umd.edu</a> ·
+  <a href="https://www.linkedin.com/in/linuteresa/">LinkedIn</a>
 </p>
 
 ---
-Check out my portfolio :- https://linuteresa.github.io/portfolio/
 
-###  What I Actually Do
+Retrieval, agents, and distributed data, with a habit of building the measurement before trusting the
+system. Most of what I learn ends up here as something runnable.
 
-```python
-linu = {
-    "languages"  : ["Java", "Python", "SQL", "the occasional angry comment"],
-    "domains"    : ["AI/ML", "Data Science", "Big Data", "Manifold Learning"],
-    "obsessions" : ["Data Modeling", "Dimensionality Reduction", "Making sense of chaos"],
-    "current_mood": "Reducing 1000 dimensions into something a human can look at 🫠"
-}
-```
+> ** Hot take - Data cleaning is 80% of the job and 100% of what nobody puts in the job description.**
 
----
+### Currently experimenting with
 
-### Hot Take
+**[Reinforcement learing and agent reward modeling](https://github.com/linuteresa/llm-alignment-lab)** · PyTorch, HuggingFace, SmolLM2
+Working through the post-training stack by implementing it from scratch rather than calling
+`trainer.train()`: supervised fine-tuning, reward modeling, PPO, DPO and GRPO on a 135M model, plus a
+small GPT-2 and a BPE tokenizer. The part I find most interesting is the reward-hacking probe, which
+optimizes against a learned proxy reward while scoring on a held-out gold metric and watches the two come
+apart: gold quality collapses to 0.03 under a weak KL penalty, against 0.98 under DPO.
 
-> **"Data cleaning is 80% of the job and 100% of what nobody talks about in job descriptions."**  
-> I said what I said.
+### Selected work
 
+**[biomed-rag](https://github.com/linuteresa/biomed-rag)** · Python, Pinecone, LlamaIndex, HuggingFace
+Retrieval over biomedical literature with cited sources. Hybrid dense and BM25 retrieval, reranking, and a
+hand-labeled 56-query benchmark split easy and hard, because a single average would have hidden that
+Recall@10 falls from 1.00 to 0.50 on the queries that actually matter. Grounding and citation checks run
+offline in CI, so a regression blocks a merge instead of reaching a user.
 
-###  Tech Stack
+**[bayes-execution-engine](https://github.com/linuteresa/bayes-execution-engine)** · Python, LangGraph, MCP, pgmpy
+Multi-agent orchestration on a deterministic plan-and-execute schedule, agents calling tools over MCP.
+Bayesian graphical models resolve conflicting agent outputs into one answer carrying an uncertainty
+estimate, instead of retrying until the agents happen to agree.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
+**[big-data-analytics](https://github.com/linuteresa/big-data-analytics)** · Spark, Airflow, Dask, PostgreSQL, MongoDB, Neo4j, Redis
+Batch and stream processing with DAG orchestration, running comparable workloads across relational,
+document, graph and key-value stores to see where each access pattern actually pays.
 
+**[peekaboo-webapp](https://github.com/linuteresa/peekaboo-webapp)** · Vanilla JS, Tesseract.js, Ollama
+Learning app for preschoolers with OCR and an AI tutor running Gemma3 locally through Ollama. No
+framework, hand-rolled state-driven rendering, six-tier adaptive progression.
 
-###  Currently
+### Tech
 
--  Building things that involve way too many matrix multiplications
--  Finding structure in high-dimensional data (and in life, occasionally)
--  Handling big data like it's a perfectly normal amount of data
-- Training models and hoping they generalize better than I do at parties
-
----
-
-###  Find Me
-
-<p align="left">
-  <a href="https://github.com/linuteresa">
-    <img src="https://img.shields.io/badge/GitHub-linuteresa-181717?style=for-the-badge&logo=github"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/linuteresa/">
-    <img src="https://img.shields.io/badge/LinkedIn-linuteresa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
----
-
-<p align="center">
-  <i>"First, solve the problem. Then, write the code. Then, realize the data was wrong the whole time."</i><br/>
-  <sub>— Linu, probably</sub>
-</p>
+Python · Java · SQL · PyTorch · scikit-learn · pandas · NumPy · HuggingFace · LangGraph · MCP · Pinecone ·
+Spark · Airflow · Dask · PostgreSQL · MongoDB · Redis · Docker · Terraform · AWS · Azure · Git
