@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I am Linu 👋</h1>
+<h1 align="center">Hi, I'm Linu 👋</h1>
 <h3 align="center">I build ML systems and the evals that keep them honest</h3>
 
 <p align="center">
